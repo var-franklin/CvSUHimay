@@ -1,0 +1,17 @@
+# Node
+node_modules/
+npm-debug.log
+.env
+*.mp4
+
+# React
+BoneUP-Web/node_modules/
+BoneUP-Mobile/node_modules/
+dist/
+build/
+
+# VSCode
+.vscode/
+
+# Database backups
+cvsuhimay_backup_*.sql
