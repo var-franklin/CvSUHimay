@@ -1,8 +1,7 @@
-# 🐟 CvSUHimay
+# CvSUHimay
 
 **A 3D interactive web simulator that teaches fisheries students how to debone bangus (milkfish) — with real-time mistake detection, gamified progress, and a full learning-management system built around it.**
 
-*(Internally named **BoneUp** in the frontend package.)*
 
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white&style=flat-square)
 ![Three.js](https://img.shields.io/badge/Three.js-React_Three_Fiber-black?logo=three.js&logoColor=white&style=flat-square)
@@ -37,7 +36,7 @@ Built as an undergraduate thesis project, the system was evaluated by 10 assesso
 
 ## Features
 
-### 🎓 Student
+### Student
 - Onboarding flow and a personal dashboard summarizing simulation performance, module/quiz completion, XP, and rank
 - Five structured learning modules with a distraction-free reader view
 - Per-module quizzes, graded server-side with immediate feedback and explanations
@@ -46,13 +45,13 @@ Built as an undergraduate thesis project, the system was evaluated by 10 assesso
 - Gamification: XP and rank progression, a leaderboard (XP / quiz / simulation / achievements), and 21 achievements across rarity tiers (equip up to 3 on your public profile)
 - In-app notifications and account/profile settings (avatar, username, password)
 
-### 🧑‍🏫 Instructor
+### Instructor
 - Course creation and management with join codes, enrollment approval, and class announcements
 - Student roster management, including reviewing pending enrollment requests
 - Custom grading rules for the simulation
 - Analytics: per-class and per-student quiz and simulation performance, hardest questions, learning-curve trends
 
-### 🛠️ Admin
+### Admin
 - User management across all roles
 - Platform-wide activity logs
 - System settings
@@ -232,7 +231,7 @@ All endpoints are served from the Express backend, organized into one router per
 
 ## My Contributions
 
-This was a 3-person undergraduate thesis. My (Franklin's) primary focus areas were:
+This was a 3-person undergraduate thesis. My primary focus areas were:
 
 - **Backend:** the complete REST API (Node.js/Express), the MySQL schema, JWT authentication, and Google OAuth integration
 - **FSM:** architected the baseline state schema and finalized the state/transition configuration for the Mealy-type validation engine
@@ -245,7 +244,7 @@ This was a 3-person undergraduate thesis. My (Franklin's) primary focus areas we
 
 - **Jhon Lorence A. Hilario**
 - **Gavriell C. Pangan**
-- **Franklin Gian G. Sarmiento** ([github.com/var-franklin](https://github.com/var-franklin))
+- **Franklin Gian G. Sarmiento**
 
 Undergraduate thesis, BS Computer Science, Cavite State University – Naic Campus. Advised by Dr. Michelle C. Tanega.
 
